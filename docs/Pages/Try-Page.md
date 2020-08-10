@@ -9,15 +9,17 @@ The Try page of a Topic provides information about:
 
 Below are the steps to create a Try page for the topic:
 
-1.  Go to -> Pages -> Add New
+1.  Go to -> altpluscare.com/wp-admin
+2.  Login with the credentials
+3.  Go to -> Pages -> Add New
 
     ![add new](../images/Try-page/addnew.jpg)
 
-2.  Add Title : Enter Try as the title
+4.  Add Title : Enter Try as the title
 
     ![add title](../images/Try-page/addtitle.jpg)
 
-3.  In code editor -> Select Shortcode : enter the slug name as "[try slug = slug name]". This creates the page layout automatically.
+5.  In code editor -> Select Shortcode : enter the slug name as "[try slug = slug name]". This creates the page layout automatically.
 
     ![shortcode](../images/Try-page/shortcode.jpg)
 

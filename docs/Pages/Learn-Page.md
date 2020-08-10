@@ -12,15 +12,17 @@ Once a topic is created, it has two parts: Learn Page and the Try Page.
 
 Below are the steps to To add a new Learn Page to the Topic:
 
-1.  Go to -> Pages -> Add New
+1.  Go to -> altpluscare.com/wp-admin
+2.  Login with the credentials
+3.  Go to -> Pages -> Add New
 
     ![add new](../images/Learn-page/addnew.jpg)
 
-2.  Add Title : this is same as the Topic name.
+4.  Add Title : this is same as the Topic name.
 
     ![add title](../images/Learn-page/addtitle.jpg)
 
-3.  In code editor -> Select Shortcode : enter the slug name as "[learn slug = slug name]". This creates the page layout automatically.
+5.  In code editor -> Select Shortcode : enter the slug name as "[learn slug = slug name]". This creates the page layout automatically.
 
     ![shortcode](../images/Learn-page/shortcode.jpg)
 
