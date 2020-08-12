@@ -1,6 +1,13 @@
 site_name: AltPlus Documentation
 nav:
-  - Home : 'index.md'
+  - Topic : 'Topic.md'
+  - Pages:
+    - Learn Page : 'Pages/Learn-Page.md'
+    - Try Page : 'Pages/Try-Page.md'
+  - Questions : 'Questions.md'
+  - Articles : 'Articles.md'
+  - Elements : 'Elements.md'
+  - SEO Management : 'SEO-Management.md'
 theme:
   name: material
   features:
