@@ -1,6 +1,8 @@
 #   **Questions**
 
-The learn page of each topic has a very interactive Question and Answer section which provides the basic information about:
+##  **Introduction**
+
+The learn page of each topic has a very interactive Question and Answer section which provides awareness about:
 
 -   Common questions related to the topic are answered.
 -   References to articles are provided for more clarity and confirmation of facts.
@@ -11,7 +13,7 @@ This is how the Question/Answer section looks on the website:
 
 ##  **Add Question**
 
-Below we will see the steps to add/update/ edit the Question/Answer section as per requirement:
+Below we will see the steps to add/update/edit the Question/Answer section as per requirement:
 
 1.  Go to -> altpluscare.com/wp-admin
 2.  Login with the credentials
