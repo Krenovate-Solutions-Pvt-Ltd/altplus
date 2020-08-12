@@ -1,0 +1,820 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.4.0">
+    
+    
+      
+        <title>Elements - AltPlus Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.fe0cca5b.min.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/palette.a46bcfb3.min.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#3f51b5">
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,400i,700%7CSource+Code+Pro&display=fallback">
+        <style>body,input{font-family:"Inter",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Source Code Pro",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="indigo" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#elements" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href=".." title="AltPlus Documentation" class="md-header-nav__button md-logo" aria-label="AltPlus Documentation">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            AltPlus Documentation
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Elements
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="AltPlus Documentation" class="md-nav__button md-logo" aria-label="AltPlus Documentation">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    AltPlus Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../Topic/" title="Topic" class="md-nav__link">
+      Topic
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Pages
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Pages" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Pages
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Pages/Learn-Page/" title="Learn Page" class="md-nav__link">
+      Learn Page
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Pages/Try-Page/" title="Try Page" class="md-nav__link">
+      Try Page
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../Questions/" title="Questions" class="md-nav__link">
+      Questions
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../Articles/" title="Articles" class="md-nav__link">
+      Articles
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Elements
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
+    
+    <a href="./" title="Elements" class="md-nav__link md-nav__link--active">
+      Elements
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-an-element" class="md-nav__link">
+    Create an Element
+  </a>
+  
+    <nav class="md-nav" aria-label="Create an Element">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#element-fields" class="md-nav__link">
+    Element Fields
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benefits" class="md-nav__link">
+    Benefits
+  </a>
+  
+    <nav class="md-nav" aria-label="Benefits">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#benefits-fields-under-this-section-multiple-benefits-can-be-added-for-doing-this-the-below-fields-for-each-benefit-needs-to-be-filled" class="md-nav__link">
+    Benefits fields : Under this section multiple benefits can be added. For doing this the below fields for each benefit needs to be filled:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dosage-tile" class="md-nav__link">
+    Dosage Tile
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-use-tile" class="md-nav__link">
+    How to Use Tile
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adaptogen-tile" class="md-nav__link">
+    Adaptogen Tile
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quick-facts" class="md-nav__link">
+    Quick Facts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#warnings-tile" class="md-nav__link">
+    Warnings Tile
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elements-reference" class="md-nav__link">
+    Elements Reference
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#questions-elements" class="md-nav__link">
+    Questions Elements
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#right-side-panel" class="md-nav__link">
+    Right Side Panel
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#publish" class="md-nav__link">
+    Publish
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../SEO-Management/" title="SEO Management" class="md-nav__link">
+      SEO Management
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-an-element" class="md-nav__link">
+    Create an Element
+  </a>
+  
+    <nav class="md-nav" aria-label="Create an Element">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#element-fields" class="md-nav__link">
+    Element Fields
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benefits" class="md-nav__link">
+    Benefits
+  </a>
+  
+    <nav class="md-nav" aria-label="Benefits">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#benefits-fields-under-this-section-multiple-benefits-can-be-added-for-doing-this-the-below-fields-for-each-benefit-needs-to-be-filled" class="md-nav__link">
+    Benefits fields : Under this section multiple benefits can be added. For doing this the below fields for each benefit needs to be filled:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dosage-tile" class="md-nav__link">
+    Dosage Tile
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-use-tile" class="md-nav__link">
+    How to Use Tile
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adaptogen-tile" class="md-nav__link">
+    Adaptogen Tile
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quick-facts" class="md-nav__link">
+    Quick Facts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#warnings-tile" class="md-nav__link">
+    Warnings Tile
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elements-reference" class="md-nav__link">
+    Elements Reference
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#questions-elements" class="md-nav__link">
+    Questions Elements
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#right-side-panel" class="md-nav__link">
+    Right Side Panel
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#publish" class="md-nav__link">
+    Publish
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  
+                
+                
+                <h1 id="elements"><strong>Elements</strong><a class="headerlink" href="#elements" title="Permanent link">&para;</a></h1>
+<h2 id="introduction"><strong>Introduction</strong><a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
+<p>Elements are the organic products/ ingredients which which provide natural solutions to the problems related to topics. Elements is the section on the Topic Homepage which provides the description and related information about the natural ingredients which are the part of the product.</p>
+<p>Clicking on each element will take you to a seperate page which provides all information about that ingredient. </p>
+<p><img alt="homepage" src="../images/Elements/homepage.jpg" /></p>
+<h2 id="create-an-element"><strong>Create an Element</strong><a class="headerlink" href="#create-an-element" title="Permanent link">&para;</a></h2>
+<p>Below is the step-by-step process of creating these pages:</p>
+<ol>
+<li>Go to -&gt; altpluscare.com/wp-admin</li>
+<li>Login with the credentials</li>
+<li>Click on Element-&gt; Add New</li>
+<li>
+<p>Add the Name/title of the Element here</p>
+<p><img alt="add new" src="../images/Elements/addnew.jpg" /></p>
+</li>
+</ol>
+<h3 id="element-fields"><strong>Element Fields</strong><a class="headerlink" href="#element-fields" title="Permanent link">&para;</a></h3>
+<p>In this section, the fields define the look and layout of the elements card on the page. Below the fields need to filled:</p>
+<p><img alt="elements fields" src="../images/Elements/elementfields.jpg" /></p>
+<ol>
+<li><strong>Elements Priority</strong> : This defines the placement of the element card on the Topic homepage. Priority is always entered as number value.</li>
+<li>
+<p><strong>Elements Card Image</strong> : This is the image of the element card.</p>
+<p><img alt="card image" src="../images/Elements/cardimage.jpg" /></p>
+</li>
+<li>
+<p><strong>Elements Image for Desktop</strong> : This is the background image for the element which is visible to desktop users.</p>
+<p><img alt="desktop image" src="../images/Elements/desktopimage.jpg" /></p>
+</li>
+<li>
+<p><strong>Elements Image Mobile</strong> : This is the background image for the element which is visible to mobile users.</p>
+</li>
+<li>
+<p><strong>Element Scientific Name</strong> : This is the scientific name of the natural ingredient. This name shows below the Element name.</p>
+<p><img alt="scientific name" src="../images/Elements/scientificname.jpg" /></p>
+</li>
+<li>
+<p><strong>Element Article Highlight</strong> : This text provides the overview of the element.</p>
+<p><img alt="highlight" src="../images/Elements/articlehighlight.jpg" /></p>
+</li>
+</ol>
+<h3 id="benefits"><strong>Benefits</strong><a class="headerlink" href="#benefits" title="Permanent link">&para;</a></h3>
+<p>This section provides details of various benefits of the element. The following fields need to be filled:</p>
+<p><img alt="benefits" src="../images/Elements/benefits.jpg" /></p>
+<p><strong>Benefits title</strong> : Here the title entered is "Benefits".</p>
+<h4 id="benefits-fields-under-this-section-multiple-benefits-can-be-added-for-doing-this-the-below-fields-for-each-benefit-needs-to-be-filled"><strong>Benefits fields</strong> : Under this section multiple benefits can be added. For doing this the below fields for each benefit needs to be filled:<a class="headerlink" href="#benefits-fields-under-this-section-multiple-benefits-can-be-added-for-doing-this-the-below-fields-for-each-benefit-needs-to-be-filled" title="Permanent link">&para;</a></h4>
+<p><img alt="benefit fields" src="../images/Elements/benefitfields.jpg" /></p>
+<ol>
+<li><strong>Benefits Icon</strong> : The image which precedes the Benefit name. This is the same icon which is assigned to a particular topic.</li>
+<li><strong>Benefits Field Title</strong> : This is the name of the benefit.</li>
+<li><strong>Benefits Field Description</strong> : This is the description about the benefit.</li>
+<li>
+<p><strong>Parameters</strong> : Under this field, 4 parameters are covered. For each Parameter, title and value is entered. </p>
+<ul>
+<li>Parameter 1 : Title is "Scale of Influence". The value entered is on the scale of 100.</li>
+<li>Parameter 2 : Title is "Consistency of Study Results". The value entered is on the scale of 100.</li>
+<li>Parameter 3 : this can be left blank.</li>
+<li>
+<p>Parameter 4 : Title is "Number of Studies". The value is the number of source reference links attached to the benefit. To add these reference links, follow the below steps:</p>
+<ul>
+<li>Add "Source Title" - Name of the link</li>
+<li>Add "Source Link" - insert the web URL</li>
+</ul>
+<p><img alt="parameter 4" src="../images/Elements/parameter4.jpg" /></p>
+</li>
+</ul>
+</li>
+</ol>
+<p>This is how the fields appear on the elements page:</p>
+<p><img alt="benefits tile" src="../images/Elements/benefitstile.jpg" /></p>
+<h3 id="dosage-tile"><strong>Dosage Tile</strong><a class="headerlink" href="#dosage-tile" title="Permanent link">&para;</a></h3>
+<p>This section explains the dosage quantity to be taken. The below fields need to be filled:</p>
+<p><img alt="dosage" src="../images/Elements/dosage.jpg" /></p>
+<ol>
+<li><strong>Dosage Title</strong> : This is the name of the tile that shows on the element page. Enter "Dosage" here.</li>
+<li><strong>Dosage Image</strong> : This is a pre-defined image which needs to be selected from the list.</li>
+<li><strong>Dosage Description</strong> : This should be entered as "/day".</li>
+<li>
+<p><strong>Dosage Quantity</strong> : Enter the prescribed value.</p>
+<p><img alt="dosage1" src="../images/Elements/dosage1.jpg" /></p>
+</li>
+</ol>
+<h3 id="how-to-use-tile"><strong>How to Use Tile</strong><a class="headerlink" href="#how-to-use-tile" title="Permanent link">&para;</a></h3>
+<p>This section gives an overview of how to use the element. The following fields need to be filled:</p>
+<p><img alt="how to use" src="../images/Elements/howtouse.jpg" /></p>
+<ol>
+<li><strong>How to Use Title</strong> : This is the name of the tile on the elements page. Enter "How to Use" here.</li>
+<li>
+<p><strong>How to use Description</strong> : Enter the prescribed instruction of use here.</p>
+<p><img alt="how to use1" src="../images/Elements/howtouse1.jpg" /></p>
+</li>
+</ol>
+<h3 id="adaptogen-tile"><strong>Adaptogen Tile</strong><a class="headerlink" href="#adaptogen-tile" title="Permanent link">&para;</a></h3>
+<p>This is the tile on the right side of the element page. This describes the most important feature of the element. The following fields need to be filled:</p>
+<p><img alt="adaptogen" src="../images/Elements/adaptogen.jpg" /></p>
+<ol>
+<li><strong>Adaptogen Icon</strong> : This is a predefined image which precedes the title. Select from the available list.</li>
+<li><strong>Adaptogen Title</strong> : Here enter "Adaptogen".</li>
+<li>
+<p><strong>Adaptogen Description</strong> : Here enter the basic description text here.</p>
+<p><img alt="adaptogen final" src="../images/Elements/adaptogenfinal.jpg" /></p>
+</li>
+</ol>
+<h3 id="quick-facts"><strong>Quick Facts</strong><a class="headerlink" href="#quick-facts" title="Permanent link">&para;</a></h3>
+<p>This tile provides some quick to know facts and is placed below the Adaptogen tile on the right side of the page. 
+The below fields need to be filled:</p>
+<p><img alt="quick facts" src="../images/Elements/quickfact.jpg" /></p>
+<ol>
+<li><strong>Quick Fact Icon</strong> : This is a pre-defined image preceding the title.</li>
+<li><strong>Quick Fact Title</strong> : Enter "Quick Facts" as title.</li>
+<li>
+<p><strong>Quick Facts</strong> : The facts to be included needs to have two fields to be filled - <strong>Quick Fact Heading</strong> and <strong>Quick Fact Description</strong></p>
+<p><img alt="quick facts" src="../images/Elements/quickfact1.jpg" /></p>
+<ol>
+<li><strong>Other Names</strong> : Heading - Other Names; Description - add content</li>
+<li><strong>Region</strong> : Heading - Region; Description - add relevant content</li>
+<li><strong>Used In</strong> : Heading - Used In; Description - relevant content</li>
+<li><strong>Extracted From</strong> : Heading - Extracted From; Description - relevant description</li>
+<li><strong>Available Forms</strong> : Heading - Available Forms; Description - relevant content</li>
+</ol>
+</li>
+</ol>
+<p>This is how the tile looks on the web page:</p>
+<p><img alt="quick facts final" src="../images/Elements/quickfactfinal.jpg" /></p>
+<h3 id="warnings-tile"><strong>Warnings Tile</strong><a class="headerlink" href="#warnings-tile" title="Permanent link">&para;</a></h3>
+<p>This section gives warnings related to the element dosage, usage, who should avoid etc. This tile is placed at the bottom of the page. The below fields need to be filled:</p>
+<p><img alt="warnings" src="../images/Elements/warnings.jpg" /></p>
+<ol>
+<li><strong>Warnings Title</strong> : Enter "Warnings* here.</li>
+<li><strong>Warnings Icon</strong> : This is pre-defined image which precedes the title. Select the image from the list.</li>
+<li><strong>Warnings Description</strong> : Add the warnings here. You can use bullet points to add multiple warnings.</li>
+</ol>
+<p>This is the final output on the web page:</p>
+<p><img alt="warning final" src="../images/Elements/warningsfinal.jpg" /></p>
+<h3 id="elements-reference"><strong>Elements Reference</strong><a class="headerlink" href="#elements-reference" title="Permanent link">&para;</a></h3>
+<p>This is the last section of the elements page where links to web pages/articles are listed. These links provide more facts and information related to the element.
+Multiple references can be added in this section. For each reference add the below fields:</p>
+<p><img alt="reference" src="../images/Elements/references.jpg" /></p>
+<ol>
+<li><strong>Elements Reference Number</strong> : this defines the placement of the reference link.</li>
+<li><strong>Element Reference Name</strong> : Add a relevant name to the article /reference link.</li>
+<li><strong>Element Reference Link</strong> : Add the URL to the article.</li>
+</ol>
+<p>This is how the section looks on the web page:</p>
+<p><img alt="reference final" src="../images/Elements/referencefinal.jpg" /></p>
+<h3 id="questions-elements"><strong>Questions Elements</strong><a class="headerlink" href="#questions-elements" title="Permanent link">&para;</a></h3>
+<p>NO changes are to be done to this section.</p>
+<p><img alt="ques element" src="../images/Elements/queselement.jpg" /></p>
+<h2 id="right-side-panel"><strong>Right Side Panel</strong><a class="headerlink" href="#right-side-panel" title="Permanent link">&para;</a></h2>
+<p>On the right side panel, under the Document tab, populate the following fields:</p>
+<ol>
+<li>
+<p>Topic : Check mark the topic name with which you want to connect the question to.</p>
+<p><img alt="right side topic" src="../images/Elements/rghtsdtopic.jpg" /></p>
+</li>
+</ol>
+<h2 id="publish"><strong>Publish</strong><a class="headerlink" href="#publish" title="Permanent link">&para;</a></h2>
+<p>Click on the Publish button on the right side panel. This will save the new article added.</p>
+<p><img alt="publish" src="../images/Elements/publish.jpg" /></p>
+                
+                  
+                    
+
+<hr>
+<div class="md-source-date">
+  <small>
+    
+      Last update: August 12, 2020
+    
+  </small>
+</div>
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../Articles/" title="Articles" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Articles
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../SEO-Management/" title="SEO Management" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                SEO Management
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/vendor.d710d30a.min.js"></script>
+      <script src="../assets/javascripts/bundle.b39636ac.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+      <script>
+        app = initialize({
+          base: "..",
+          features: ["instant"],
+          search: Object.assign({
+            worker: "../assets/javascripts/worker/search.a68abb33.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
