@@ -1,6 +1,6 @@
 #   **Alt+ Admin Guide**
 
-Welcome to the world of alternative wellness. The online pages provides an easy-to-use interface with a powerful set of tools allowing you to interact with your audience in real-time over the web, anytime and anywhere.
+Welcome to the world of alternative wellness. The online pages provide an easy-to-use interface with a powerful set of tools allowing you to interact with your audience in real-time over the web, anytime and anywhere.
 
 As an administrator, you will see that updating and editing existing knowledge online is a snap.
 
@@ -35,16 +35,16 @@ The Admin manual has been created for the Admin team of Alt+. The purpose of thi
 
 In this manual we will cover step-by-step instructions for the below tasks:
 
-1.  Topics
+1.  [Topic](Topic.md)
 2.  Pages
 
-    -   Learn Page
-    -   Try Page
+    -   [Learn Page](Pages/Learn-Page.md)
+    -   [Try Page](Pages/Try-Page.md)
 
-3.  Questions
-4.  Articles
-5.  Elements
-6.  SEO Management
+3.  [Questions](Questions.md)
+4.  [Articles](Articles.md)
+5.  [Elements](Elements.md)
+6.  [SEO Management](SEO-Management.md)
 
 
 

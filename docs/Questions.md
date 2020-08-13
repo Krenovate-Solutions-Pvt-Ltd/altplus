@@ -17,11 +17,11 @@ Below we will see the steps to add/update/edit the Question/Answer section as pe
 
 1.  Go to -> altpluscare.com/wp-admin
 2.  Login with the credentials
-3.  Click -> Question -> Add New
+3.  Click -> **Question** -> **Add New**
 
     ![add new](images/Questions/addnew.jpg)
 
-4.  Add Title field : Add the Question here
+4.  **Add Title field** : Add the Question here
 
     ![add title](images/Questions/addtitle.jpg)
 
@@ -62,17 +62,19 @@ Question Elements are the nutrients/ingredients associated with the topic.
 
 ![connect element](images/Questions/connectelement.jpg)
 
-    **Things to keep in mind**
+> **Things to keep in mind**
+>
+>-  Only one connection out of Articles and Elements can be active at a time.
+>-  Deactivate the previous connection to make the new connection.
+>-  NEVER click on "thrash" - it will delete the connection permanently from everywhere.
 
-    -   Only one connection out of Articles and Elements can be active at a time.
-    -   Deactivate the previous connection to make the new connection.
-    -   NEVER click on "thrash" - it will delete the connection permanently from everywhere.
+
 
 ##  **Right Side Panel**
 
 On the right side panel, under the Document tab, populate the following fields:
 
-1.  Topic : Check mark the topic name with which you want to connect the question to.
+1.  **Topic** : Check mark the topic name with which you want to connect the question to.
 
     ![right side topic](images/Questions/rghtsdtopic.jpg)
 
