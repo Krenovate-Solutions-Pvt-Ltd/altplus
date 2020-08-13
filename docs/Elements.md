@@ -2,7 +2,7 @@
 
 ##  **Introduction**
 
-Elements are the organic products/ ingredients which which provide natural solutions to the problems related to topics. Elements is the section on the Topic Homepage which provides the description and related information about the natural ingredients which are the part of the product.
+Elements are the organic products/ ingredients which provide natural solutions to the problems related to topics. Elements is the section on the Topic Homepage which provides the description and related information about the natural ingredients which are the part of the organic product/supplement.
 
 Clicking on each element will take you to a seperate page which provides all information about that ingredient. 
 
@@ -14,14 +14,14 @@ Below is the step-by-step process of creating these pages:
 
 1.  Go to -> altpluscare.com/wp-admin
 2.  Login with the credentials
-3.  Click on Element-> Add New
-4.  Add the Name/title of the Element here
+3.  Click on **Element**-> **Add New**
+4.  Add the **Name/title** of the Element in the field provided.
 
     ![add new](images/Elements/addnew.jpg)
 
 ### **Element Fields**
 
-In this section, the fields define the look and layout of the elements card on the page. Below the fields need to filled:
+In this section, the fields define the look and layout of the elements card on the page. Below fields need to filled:
 
 ![elements fields](images/Elements/elementfields.jpg)
 
@@ -51,18 +51,20 @@ This section provides details of various benefits of the element. The following 
 
 **Benefits title** : Here the title entered is "Benefits".
 
-####  **Benefits fields** : Under this section multiple benefits can be added. For doing this the below fields for each benefit needs to be filled:
+####  **Benefits fields** 
+
+ Under this section multiple benefits can be added. For doing this the below fields for each benefit needs to be filled:
 
 ![benefit fields](images/Elements/benefitfields.jpg)
 
-1.  **Benefits Icon** : The image which precedes the Benefit name. This is the same icon which is assigned to a particular topic.
+1.  **Benefits Icon** : It is the image which precedes the Benefit name. This is the same icon which is assigned to a particular topic. Select the image from the list.
 2.  **Benefits Field Title** : This is the name of the benefit.
-3.  **Benefits Field Description** : This is the description about the benefit.
-4.  **Parameters** : Under this field, 4 parameters are covered. For each Parameter, title and value is entered. 
+3.  **Benefits Field Description** : This is the description/overview about the benefit.
+4.  **Parameters** : Under this field, 4 parameters are covered. For each Parameter, **title** and **value** is entered. 
 
     -   Parameter 1 : Title is "Scale of Influence". The value entered is on the scale of 100.
     -   Parameter 2 : Title is "Consistency of Study Results". The value entered is on the scale of 100.
-    -   Parameter 3 : this can be left blank.
+    -   Parameter 3 : This can be left blank if no other parameter is required.
     -   Parameter 4 : Title is "Number of Studies". The value is the number of source reference links attached to the benefit. To add these reference links, follow the below steps:
 
         -  Add "Source Title" - Name of the link
@@ -77,7 +79,7 @@ This is how the fields appear on the elements page:
 
 ### **Dosage Tile** 
 
-This section explains the dosage quantity to be taken. The below fields need to be filled:
+The Dosage section explains the dosage quantity to be taken. The below fields need to be filled:
 
 ![dosage](images/Elements/dosage.jpg)
 
@@ -86,7 +88,9 @@ This section explains the dosage quantity to be taken. The below fields need to 
 3.  **Dosage Description** : This should be entered as "/day".
 4.  **Dosage Quantity** : Enter the prescribed value.
 
-    ![dosage1](images/Elements/dosage1.jpg)
+The final look of the Dosage tile on the web page will be as below:
+
+![dosage1](images/Elements/dosage1.jpg)
 
 ### **How to Use Tile**
 
@@ -97,30 +101,34 @@ This section gives an overview of how to use the element. The following fields n
 1.  **How to Use Title** : This is the name of the tile on the elements page. Enter "How to Use" here.
 2.  **How to use Description** : Enter the prescribed instruction of use here.
 
-    ![how to use1](images/Elements/howtouse1.jpg)
+The Final look on the web page:
 
-### **Adaptogen Tile**
+![how to use1](images/Elements/howtouse1.jpg)
 
-This is the tile on the right side of the element page. This describes the most important feature of the element. The following fields need to be filled:
+### **Adaptogen**
+
+The Adaptogen tile is placed on the right side of the element page. This describes the most important feature of the element. The following fields need to be filled:
 
 ![adaptogen](images/Elements/adaptogen.jpg)
 
 1.  **Adaptogen Icon** : This is a predefined image which precedes the title. Select from the available list.
 2.  **Adaptogen Title** : Here enter "Adaptogen".
-3.  **Adaptogen Description** : Here enter the basic description text here.
+3.  **Adaptogen Description** : In this field enter the basic description text as provided.
 
-    ![adaptogen final](images/Elements/adaptogenfinal.jpg)
+The final look on the web page:
+
+![adaptogen final](images/Elements/adaptogenfinal.jpg)
 
 ### **Quick Facts**
 
-This tile provides some quick to know facts and is placed below the Adaptogen tile on the right side of the page. 
+This section of the elements page provides some quick to know facts and is placed below the Adaptogen tile on the right side of the page. 
 The below fields need to be filled:
 
 ![quick facts](images/Elements/quickfact.jpg)
 
 1.  **Quick Fact Icon** : This is a pre-defined image preceding the title.
 2.  **Quick Fact Title** : Enter "Quick Facts" as title.
-3.  **Quick Facts** : The facts to be included needs to have two fields to be filled - **Quick Fact Heading** and **Quick Fact Description**
+3.  **Quick Facts** : The facts to be included require to have two fields to be filled - **Quick Fact Heading** and **Quick Fact Description**
 
     ![quick facts](images/Elements/quickfact1.jpg)
 
@@ -134,13 +142,13 @@ This is how the tile looks on the web page:
 
 ![quick facts final](images/Elements/quickfactfinal.jpg)
 
-### **Warnings Tile**
+### **Warnings**
 
-This section gives warnings related to the element dosage, usage, who should avoid etc. This tile is placed at the bottom of the page. The below fields need to be filled:
+The warnings section gives warnings related to the element dosage, usage, who should avoid etc. This tile is placed at the bottom of the page. The below fields need to be filled:
 
 ![warnings](images/Elements/warnings.jpg)
 
-1.  **Warnings Title** : Enter "Warnings* here.
+1.  **Warnings Title** : Enter "Warnings" here.
 2.  **Warnings Icon** : This is pre-defined image which precedes the title. Select the image from the list.
 3.  **Warnings Description** : Add the warnings here. You can use bullet points to add multiple warnings.
 
@@ -174,9 +182,13 @@ NO changes are to be done to this section.
 
 On the right side panel, under the Document tab, populate the following fields:
 
-1.  Topic : Check mark the topic name with which you want to connect the question to.
+1.  **Topic** : Check mark the topic name with which you want to connect the question to.
 
     ![right side topic](images/Elements/rghtsdtopic.jpg)
+
+2.  In case, you want to add a link on card which takes the user directly to a third party website, follow the below steps:
+
+    
 
 ##  **Publish**
 
